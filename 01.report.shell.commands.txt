@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww28600\viewh18000\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Last login: Mon Apr  1 09:36:08 on ttys000\
+ -echo hello world\
+hello world\
+ -passwd\
+Changing password for macbook.\
+Old Password:\
+New Password:\
+Retype New Password:\
+ macbook$ date\
+Mon Apr  1 09:37:38 +07 2019\
+- hostname\
+Macbooks-MacBook-Pro.local\
+Macbooks-MacBook-Pro:~ macbook$ arch\
+i386\
+- uname -a\
+Darwin Macbooks-MacBook-Pro.local 18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64 x86_64\
+- dmesg\
+Unable to obtain kernel buffer: Operation not permitted\
+usage: sudo dmesg\
+- dmesg\
+Password:\
+satisifed by entitlement for pid 70sb_user_approval: kTCCServiceSystemPolicyAllFiles for mdworker_shared [2493]sb_user_approval: kTCCServiceSystemPolicyAllFiles satisifed by entitlement for pid 2493sb_user_approval: kTCCServiceSystemPolicyAllFiles for mdworker_shared [2493]sb_user_approval: kTCCServiceSystemPolicyAllFiles satisifed by entitlement for pid 2493sb_user_approval: kTCCServiceSystemPolicyAllFiles for mdworker_shared [2493]sb_user_approval: kTCCServiceSystemPolicyAllFiles satisifed by entitlement for pid 2493sb_user_approval: kTCCServiceSystemPolicyAllFiles for mdworker_shared [2493]sb_user_approval: kTCCServiceSystemPolicyAllFiles satisifed by entitlement for pid 2493Sandbox: 3 duplicate reports for coreduetd deny(1) file-write-data /private/var/root/Library/Preferences/com.apple.coreduetd.plistStarting poll type 4\
+- uptime\
+ 9:41  up 3 days,  1:10, 2 users, load averages: 1.47 1.37 1.34\
+- who am i\
+macbook  ttys000  Apr  1 09:36 \
+- whoami\
+macbook\
+- who\
+macbook  console  Mar 29 08:31 \
+macbook  ttys000  Apr  1 09:36 \
+- id\
+uid=501(macbook) gid=20(staff) groups=20(staff),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),98(_lpadmin),701(com.apple.sharepoint.group.1),33(_appstore),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh)\
+Macbooks-MacBook-Pro:~ macbook$ last\
+macbook   ttys000                   Mon Apr  1 09:36   still logged in\
+macbook   ttys000                   Mon Apr  1 09:36 - 09:36  (00:00)\
+macbook   ttys000                   Mon Apr  1 09:34 - 09:34  (00:00)\
+macbook   ttys000                   Mon Apr  1 09:32 - 09:32  (00:00)\
+macbook   ttys000                   Mon Apr  1 09:16 - 09:16  (00:00)\
+macbook   ttys000                   Mon Apr  1 09:10 - 09:10  (00:00)\
+macbook   ttys000                   Mon Apr  1 08:54 - 08:54  (00:00)\
+macbook   ttys000                   Mon Apr  1 08:41 - 08:41  (00:00)\
+macbook   console                   Fri Mar 29 08:31   still logged in\
+- finger\
+Login    Name                 TTY  Idle  Login  Time   Office  Phone\
+macbook  Duy Anh             *con    3d  Fri    08:31\
+macbook  Duy Anh              s00        Mon    09:36\
+- macbook$ w\
+ 9:42  up 3 days,  1:11, 2 users, load averages: 1.28 1.34 1.33\
+USER     TTY      FROM              LOGIN@  IDLE WHAT\
+macbook  console  -                Fri08   3days -\
+macbook  s000     -                 9:36       - w\
+}
